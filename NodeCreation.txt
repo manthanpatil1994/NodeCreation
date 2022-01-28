@@ -1,0 +1,17 @@
+How To Create Node Jenkins
+1) Go to manage Jenkins and manage node and cloud
+2) Select New node give node name n tick on permanent agent
+3) In Description give this is demo for slave
+4) In number of executor give what ever we want
+5) Node directory where the script is run
+6) In labels give labels name 
+7) In usage select Only build jobs with label expression matching this node 
+8) In launch method select Launch agent via SSH
+9) In Host give private IP of node
+10) Add Credentials ID ,Description ,Username,select private key add private of Node
+11) Select your credential whatever we given in non
+12) In Host Key Verification Strategy select, Non Verifying Verification Strategy
+13) Select in Availability , Keep this agent as much as possible
+14) Save
+15) Goto Nodes select node which we are created and relaunch that node 
+16 ) Node is created in . 
